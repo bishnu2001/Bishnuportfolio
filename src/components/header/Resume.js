@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from "../../assets/Bishnu fullstack.pdf";
+import CV from "../../assets/Bishnu update fullstack.pdf";
 
 
 

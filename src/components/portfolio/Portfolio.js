@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Portfolio.css";
-import IMG1 from"../../assets/portfolio1.jpg";
-import IMG2 from"../../assets/portfolio2.jpg";
-import IMG3 from"../../assets/portfolio3.jpg";
+import IMG1 from"../../assets/Portfolio-Desk.jpg";
+import IMG2 from"../../assets/wather.jpg";
+import IMG3 from"../../assets/google.webp";
 
 const Portfolio = () => {
   return (
@@ -12,7 +12,7 @@ const Portfolio = () => {
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div  className='portfolio_item-image'>
-            <img src={IMG1} alt='pwd'/>
+            <img src={IMG1} alt='pwd' style={{height:"200px"}}/>
           </div>
           <h3>This is my Portfolio</h3>
           <div className='portfolio_item-cta'>

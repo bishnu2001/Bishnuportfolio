@@ -39,6 +39,13 @@ const Experience = () => {
             </div>
           </article>
           <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icons' />
+              <div>
+                <h4>TYPESCRIPT</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+          <article className='experience_details'>
             <BsPatchCheckFill className='experience_details-icons'/>
             <div>
             <h4>BOOTSTRAP</h4>
@@ -59,13 +66,7 @@ const Experience = () => {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
-            <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icons' />
-              <div>
-                <h4>CHAKRA UI</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
+           
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icons' />
               <div>
@@ -76,7 +77,7 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icons' />
               <div>
-                <h4>REDUX</h4>
+                <h4>ZUSTAND</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -116,7 +117,14 @@ const Experience = () => {
           <article className='experience_details'>
             <BsPatchCheckFill className='experience_details-icons'/>
             <div>
-            <h4>AWS</h4>
+            <h4>AWS EC2</h4>
+            <small className='text-light'>Intermediate</small>
+            </div>
+          </article>
+          <article className='experience_details'>
+            <BsPatchCheckFill className='experience_details-icons'/>
+            <div>
+            <h4>AWS S3</h4>
             <small className='text-light'>Intermediate</small>
             </div>
           </article>
@@ -131,6 +139,13 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details-icons' />
               <div>
                 <h4>JENKINS</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icons' />
+              <div>
+                <h4>NGINX</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
